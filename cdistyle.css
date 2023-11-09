@@ -1,0 +1,23 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: salmon;
+    background-color: aqua;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: black;
+}
+
+ul {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    color: green;
+}
+
+ol {
+    font-family: 'Courier New', Courier, monospace;
+    color: chocolate;
+    font-weight: 400;
+}
