@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="firstname">Nome</label>
+      <input
+        id="firstname"
+        placeholder="Nome"
+        type="text"
+        name="firstname"
+        required
+      />
+      <br />
+      <label for="firstname">Cognome</label>
+      <input type="text" name="lastname" readonly /><br />
+      <input type="email" name="email" /><br />
+      <input type="date" name="date" />
+      <p>Hobby</p>
+      <!-- sport checkbox  -->
+      <input type="checkbox" name="sportHobby" value="sport" id="sport" />
+      <label for="sport">Sport</label>
+      <br />
+      <!-- gaming checkbox  -->
+      <input type="checkbox" name="gamingHobby" value="gaming" id="gaming" />
+      <label for="gaming">Gaming</label>
+      <br />
+      <p>Età</p>
+      <!-- maggiorenne radio -->
+      <input type="radio" name="eta" value="maggiorenne" id="maggiorenne" />
+      <label for="maggiorenne">Maggiorenne</label>
+      <br />
+      <!-- minorenne radio -->
+      <input type="radio" name="eta" value="minorenne" id="minorenne" />
+      <label for="minorenne">Minorenne</label>
+      <br />
+      <!-- textarea -->
+      <textarea name="descrizione"></textarea>
+      <br />
+      <!-- select -->
+      <select name="hobby">
+        <option value="">Annulla</option>
+        <option value="sport">Sport</option>
+        <option value="gaming">Gaming</option>
+      </select>
+      <br />
+      <br />
+      <button type="submit">Submit</button>
+      <button type="reset">reset</button>
+    </form>
+  </body>
+</html>
