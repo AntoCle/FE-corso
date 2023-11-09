@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Modulo di Registrazione</title>
+</head>
+<body>
+    <h1>Registrazione</h1>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="cognome">Cognome:</label>
+        <input type="text" id="cognome" name="cognome" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label>Sport preferiti:</label><br>
+        <input type="checkbox" id="calcio" name="sport" value="Calcio">
+        <label for="calcio">Calcio</label><br>
+        <input type="checkbox" id="basket" name="sport" value="Basket">
+        <label for="basket">Basket</label><br>
+        <input type="checkbox" id="tennis" name="sport" value="Tennis">
+        <label for="tennis">Tennis</label><br>
+
+        <label for="sesso">Sesso:</label>
+        <input type="radio" id="maschio" name="sesso" value="Maschio">
+        <label for="maschio">Maschio</label>
+        <input type="radio" id="femmina" name="sesso" value="Femmina">
+        <label for="femmina">Femmina</label><br><br>
+
+        <label for="eta">Età:</label>
+        <input type="date" id="eta" name="eta" required><br><br>
+
+        <label for="foto">Carica una foto:</label>
+        <input type="file" id="foto" name="foto" accept="image/*" required><br><br>
+
+        <input type="reset" value="Reimposta">
+        <input type="submit" value="Invia">
+    </form>
+</body>
+</html>
