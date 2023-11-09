@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.header {
+    background-color: #007200;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.navbar {
+    background-color: #9ef01a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.main {
+    background-color: violet;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    background-color: #1a759f;
+    border: 4px solid black;
+    padding: 20px;
+    margin: 30px;
+}
+
+.footer {
+    background-color: #000;
+    color: white;
+    padding: 45px;
+    text-align: center;
+}
