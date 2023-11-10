@@ -1,0 +1,44 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: aquamarine;
+  padding: 16px;
+  display: flow-root;
+}
+
+aside {
+  float: left;
+  width: 30%;
+  background-color: yellow;
+}
+
+main {
+  float: right;
+  background-color: blue;
+  padding: 16px;
+  width: 70%;
+  color: white;
+}
+
+footer {
+  clear: both;
+  background-color: orange;
+}
+
+.logo {
+  float: left;
+}
+
+.nav {
+  float: right;
+}
+
+main img {
+  float: left;
+  margin-right: 10px;
+}
