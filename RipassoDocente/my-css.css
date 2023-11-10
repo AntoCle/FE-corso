@@ -1,0 +1,48 @@
+/* SELETTORI CSS */
+
+* {
+}
+
+/* Selettore di elemento*/
+body {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* viewport*/
+  background-color: azure;
+}
+
+.my-class {
+  background-color: blanchedalmond;
+}
+
+#my-button {
+  color: blue;
+}
+
+/* Seleziona tutti gli elemtenti di p che sono discendenti di un elemento div*/
+div h6 {
+  background-color: blueviolet;
+}
+
+#id-h6 {
+  background-color: brown;
+}
+
+/* Dammi tutti gli h6 che sono figli diretti di un div*/
+div > h6 {
+  background-color: blueviolet!important;
+}
+
+input[type="text"] {
+  color: red;
+}
+
+/* Selettori di gruppo */
+h1,
+h2,
+h3 {
+}
+
+p::first-letter {
+  color: red;
+}
