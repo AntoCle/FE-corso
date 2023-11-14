@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #3498db;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  flex-direction: column;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.red {
+  background-color: green;
+}
+.blue {
+  background-color: red;
+}
+.green {
+  background-color: yellow;
+}
+.yellow {
+  background-color: orange;
+}
