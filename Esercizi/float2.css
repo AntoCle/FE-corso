@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #ff8c00;
+    color: white;
+    padding: 40px;
+}
+
+.container {
+    background-color: #001f3f;
+    overflow: hidden;
+}
+
+.square {
+    padding: 45px;
+    text-align: center;
+    line-height: 80px;
+    color: white;
+    margin: 16px;
+    float: left;
+    background-color: #AB476F;
+    width: 200px;
+    height: 150px;
+}
+
+.footer {
+    clear: both;
+    background-color: #008000;
+    color: white;
+    padding: 40px;
+}
