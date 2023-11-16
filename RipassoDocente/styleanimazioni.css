@@ -1,0 +1,59 @@
+/* keyframes (consente di specificare come cambia un elemento durante un'animazione) */
+@keyframes nomeAnimazione {
+    0% {
+        background-color: aqua;
+    }
+
+    50% {
+        background-color: blueviolet;
+    }
+
+    100% {
+       background-color: greenyellow;
+    }
+}
+
+@keyframes altraAnimazione {
+    from {
+         transform: scale(1);/*proprieta' usata per applicare trasformazioni */
+    }
+
+    to {
+        transform: scale(1.5);
+    }
+}
+
+@keyframes vittoAnimazione {
+    0% {
+        transform: translate(0,0);
+    }
+
+    50% {
+        transform: translate(50px,20px)  
+    }
+    
+    100% {
+        transform: translate(0,0);
+    }
+}
+
+.da-animare {
+    /* animation: nomeAnimazione 5s cubic-bezier(0,0.5,0.2,1);funzione di temporizzazione ease-in-out */
+    /* animation: altraAnimazione 5s ease-in-out; */
+    animation: vittoAnimazione 5s ease-in-out infinite;
+    background-color: black;
+    height: 50vh;
+    width: 50vw;
+}
+
+/* Linear = L'animazione avra' una velocita' costante, quindi no accelerazioni e no decelerazioni */
+/* Ease = default, inizia lentamente, accelera nel mezzo e rallenta alla fine */
+/* Ease-in = Inizia lentamente e poi accelera */
+/* Ease-out = Inizia rapidamente e poi rallenta */
+/* Ease-in-out = Inizia lentamente, accelera nel mezzo e rallenta alla fine differisce da "ease" in velocita' */
+/* Cubic-bezier = Ci permette di definire nel dettaglio i punti di accelerazione e decelerazione */
+
+
+
+
+
